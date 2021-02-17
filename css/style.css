@@ -89,6 +89,22 @@ body{
     -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
      box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
  }
+ .btn{
+     font-size: 16px;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 500;
+     padding: 12px 35px;
+     color: #ffffff;
+     border-radius: 40px;
+     -webkit-transition: all 0.3 ease;
+     transition: all 0.3 ease;
+     display: inline-block;
+     white-space: nowrap;
+ }
+ .btn:hover{
+     -webkit-transform: scale(1.05);
+     transform: scale(1.05);
+ }
  .hidden{
      display: none!important;
  }
@@ -322,6 +338,13 @@ body{
     color: #504e70;
     margin-left: 4px;
     display: inline-block;
+}
+.about .about-content .personal-info .buttons{
+    margin-top: 30px;
+}
+.about .about-content .personal-info .buttons .btn{
+    margin-right: 15px;
+    margin-top: 10px;
 }
 .about .about-content .skills{
     /* background-color: blue; */
